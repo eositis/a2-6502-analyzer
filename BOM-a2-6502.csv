@@ -1,0 +1,9 @@
+Table 1,,,,,,
+Designator,Qty,Description,Part number,Mfg,Digikey Part Number,Notes
+"J1,J2",2,CONN HDR 36POS 0.1 TIN PCB,PPTC182LFBN-RC,Sullins Connector Solutions,S7086-ND,
+J3,1,CONN HDR 18POS 0.1 TIN PCB,PPTC092LFBN-RC,Sullins Connector Solutions,S7077-ND,
+JP1,1,CONN HEADER VERT 3POS 2.54MM,HTSW-103-07-T-S,Samtec Inc.,SAM9525-ND,
+JP1,1,CONN JUMPER SHORTING GOLD FLASH,SPC02SYAN,Sullins Connector Solutions,S9001-ND,
+U1,1,CONN IC DIP SOCKET 40POS ,AR 40-HZL-TT,Assmann WSW ,123-AR40-HZL-TT-ND,
+U1,1,CONN RCPT 20POS 0.1 GOLD PCB,324-43-120-41-002000,Mill-Max Manufacturing Corp.,324-43-120-41-002000-ND,alternate 11.75mm item from https://www.aliexpress.us/item/3256803132204291.html
+D1,1,DIODE STANDARD 100V 200MA DO35,1N4148,onsemi,1N4148FS-ND,

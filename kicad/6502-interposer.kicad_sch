@@ -6,7 +6,10 @@
 	(paper "USLetter")
 	(title_block
 		(title "6502 interposer")
-		(rev "1.0")
+		(date "2025-09-21")
+		(rev "1.5")
+		(company "Ositis")
+		(comment 1 "https://github.com/eositis/a2-6502-analyzer")
 	)
 	(lib_symbols
 		(symbol "65xx-library:65CE02"
