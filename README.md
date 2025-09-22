@@ -59,6 +59,10 @@ The Opt X.nn signals are routed to the J3 breakout header. The user can use stan
 The J3 header signals are ordered as follows:
 ![a2-6502-J3header](https://github.com/user-attachments/assets/1c61d933-2e05-4c63-9d15-c92ce294f0c8)
 
+## Schematics
+Production v1.5 schematic:
+Pre-production v1.4 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main/6502-interposer-Schematic-v1_4.pdf
+
 ### Board View
 ![a2-6502-v1 5](https://github.com/user-attachments/assets/f045d332-7186-456d-840c-d61f90bf8f7c)
 
