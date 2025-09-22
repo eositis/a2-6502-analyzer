@@ -52,16 +52,15 @@ Dr Gusman's 6.5 release is recommended for this deployment. At this time, it is 
 6) Congratulations! Setup is complete!
 
 ## Channel assignments
-<img width="359" height="635" alt="image" src="https://github.com/user-attachments/assets/bc9cb439-2be1-468a-a843-e2bea2f5984d" />
+<img width="359" height="635" alt="image" src="https://github.com/user-attachments/assets/c4f22d23-842a-4563-b957-6c1d2bad59de" />
 
 ## J3 header pin assignments
 The Opt X.nn signals are routed to the J3 breakout header. The user can use standard DuPont cables and clips to reach out to other parts of the system for additional data.
 The J3 header signals are ordered as follows:
-<img width="587" height="121" alt="image" src="https://github.com/user-attachments/assets/0b2f07df-aec4-4c65-a508-9142819dd80f" />
-
+![a2-6502-J3header](https://github.com/user-attachments/assets/1c61d933-2e05-4c63-9d15-c92ce294f0c8)
 
 ### Board View
-<img width="495" height="522" alt="image" src="https://github.com/user-attachments/assets/9a57b75f-6ef6-4eb8-b260-c3e469614ef6" />
+![a2-6502-v1 5](https://github.com/user-attachments/assets/f045d332-7186-456d-840c-d61f90bf8f7c)
 
 ### Ready to collect data
 ![a2-6502-action-v1_4](https://github.com/user-attachments/assets/2841a7ba-cd46-487d-ad21-ee0a1624c94a)
