@@ -57,7 +57,7 @@ Dr Gusman's 6.5 release is recommended for this deployment. At this time, it is 
 ## J3 header pin assignments
 The Opt X.nn signals are routed to the J3 breakout header. The user can use standard DuPont cables and clips to reach out to other parts of the system for additional data.
 The J3 header signals are ordered as follows:
-![a2-6502-J3header](https://github.com/user-attachments/assets/1c61d933-2e05-4c63-9d15-c92ce294f0c8)
+<img width="522" height="118" alt="image" src="https://github.com/user-attachments/assets/1c61d933-2e05-4c63-9d15-c92ce294f0c8" />
 
 ## Schematics
 Production v1.5 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main/kicad/v1.5/6502-interposer-schematic-1_5.pdf
