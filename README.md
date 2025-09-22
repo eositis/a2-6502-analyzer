@@ -3,7 +3,7 @@ The A2-6502 is an adapter allowing [Dr Gusman's LogicAnalyzer](https://github.co
 
 In the Apple IIc, the adapter fits into the motherboard's CPU socket, even with the motherboard still in the case. No other components are obstructed, giving the user complete access to all available signals on the board. In an Apple IIe, the adapter's layout also allows access to all signals on the system. It does however block the use of slots 3 and 4.
 
-<img width="386" height="245" alt="image" src="https://github.com/user-attachments/assets/59300081-a10f-4d6c-a6ef-1137d4bd4383" />
+<img width="772" height="490" alt="image" src="https://github.com/user-attachments/assets/59300081-a10f-4d6c-a6ef-1137d4bd4383" />
 
 
 The adapter board maps the Apple IIc 6502 signals to specific ports on the LogicAnalyzer pair. An additional 16 ports are available on an expansion header, allowing the user to not only capture cpu specific signals, but to also reach out to additional areas of the system to gather related information.
@@ -60,7 +60,8 @@ The J3 header signals are ordered as follows:
 ![a2-6502-J3header](https://github.com/user-attachments/assets/1c61d933-2e05-4c63-9d15-c92ce294f0c8)
 
 ## Schematics
-Production v1.5 schematic:
+Production v1.5 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main/kicad/v1.5/6502-interposer-schematic-1_5.pdf
+
 Pre-production v1.4 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main/6502-interposer-Schematic-v1_4.pdf
 
 ### Board View
