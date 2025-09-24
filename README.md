@@ -3,7 +3,7 @@ The A2-6502 is an adapter allowing [Dr Gusman's LogicAnalyzer](https://github.co
 
 In the Apple IIc, the adapter fits into the motherboard's CPU socket, even with the motherboard still in the case. No other components are obstructed, giving the user complete access to all available signals on the board. In an Apple IIe, the adapter's layout also allows access to all signals on the system. It does however block the use of slots 3 and 4.
 
-<img width="386" height="245" alt="image" src="https://github.com/user-attachments/assets/59300081-a10f-4d6c-a6ef-1137d4bd4383" />
+<img width="772" height="490" alt="image" src="https://github.com/user-attachments/assets/59300081-a10f-4d6c-a6ef-1137d4bd4383" />
 
 
 The adapter board maps the Apple IIc 6502 signals to specific ports on the LogicAnalyzer pair. An additional 16 ports are available on an expansion header, allowing the user to not only capture cpu specific signals, but to also reach out to additional areas of the system to gather related information.
@@ -52,16 +52,20 @@ Dr Gusman's 6.5 release is recommended for this deployment. At this time, it is 
 6) Congratulations! Setup is complete!
 
 ## Channel assignments
-<img width="359" height="635" alt="image" src="https://github.com/user-attachments/assets/bc9cb439-2be1-468a-a843-e2bea2f5984d" />
+<img width="359" height="635" alt="image" src="https://github.com/user-attachments/assets/c4f22d23-842a-4563-b957-6c1d2bad59de" />
 
 ## J3 header pin assignments
 The Opt X.nn signals are routed to the J3 breakout header. The user can use standard DuPont cables and clips to reach out to other parts of the system for additional data.
 The J3 header signals are ordered as follows:
-<img width="587" height="121" alt="image" src="https://github.com/user-attachments/assets/0b2f07df-aec4-4c65-a508-9142819dd80f" />
+<img width="522" height="118" alt="image" src="https://github.com/user-attachments/assets/1c61d933-2e05-4c63-9d15-c92ce294f0c8" />
 
+## Schematics
+Production v1.5 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main/kicad/v1.5/6502-interposer-schematic-1_5.pdf
+
+Pre-production v1.4 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main/6502-interposer-Schematic-v1_4.pdf
 
 ### Board View
-<img width="495" height="522" alt="image" src="https://github.com/user-attachments/assets/9a57b75f-6ef6-4eb8-b260-c3e469614ef6" />
+![a2-6502-v1 5](https://github.com/user-attachments/assets/f045d332-7186-456d-840c-d61f90bf8f7c)
 
 ### Ready to collect data
 ![a2-6502-action-v1_4](https://github.com/user-attachments/assets/2841a7ba-cd46-487d-ad21-ee0a1624c94a)
