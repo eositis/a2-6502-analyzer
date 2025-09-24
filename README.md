@@ -12,8 +12,6 @@ Dr Gusman's 6.5 release is recommended for this deployment. At this time, it is 
 1. profiles.json
    - copy the file to $HOME/Library/Application Support/LogicAnalyzer
    - if you already have a pofile created, you will need to copy the relevant data into your existing profile
-2. cpSettingsMulti.json
-   - TBD
 
 ## Initial Setup
 1) Install firmware to LogicAnalyzer
@@ -41,13 +39,14 @@ Dr Gusman's 6.5 release is recommended for this deployment. At this time, it is 
    - each Pico board has a small reset button. Hold down this button wile plugging in one of the USB cables. Repeat for the other board.
    - on your computer, two new USB volumes will appear. Copy the appropriate firmware to the storage volume. Immediately once the copy completes, the volume will disconnect from your computer and the LogicAnalyzer will reset and boot the new firmware.
 5) Configure for use
-   - Disconnect the USB cable from the LogicAnalyzer at J2 (rear)
    - Start the LogicAnalyzer software
+   - connect USB cables to each of the logic analyzers
    - Configure a MultiDevice scanner
-   - Select the currently listed LogicAnalyzer as the Master
-   - Connect the USB cable to the LogicAnalyzer in J2
-   - Refresh the list of USB devices
-   - Connect the second LogicAnalyzer board to Slave1
+   - Click 'open device'
+   - Select one of the LogicAnalyzer boards as master
+   - Add the second one as slave, Accept
+   - Execute a data capture from an Apple II machine, do add signals via the J3 port at this time
+   - Channels up to  32 should have data. Channels 33-48 should be blank lines. If this is not the case, close the device and recreate it, placing the other LogicAnalyzer as master.
    - From the profiles menu, select the previously imported Apple II profile
 6) Congratulations! Setup is complete!
 
