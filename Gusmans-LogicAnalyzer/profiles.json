@@ -5,7 +5,7 @@
     "$values": [
       {
         "$type": "LogicAnalyzer.Classes.Profile, LogicAnalyzer",
-        "Name": "Apple II 6502",
+        "Name": "Apple II 65c02",
         "CaptureSettings": {
           "$type": "SharedDriver.CaptureSession, SharedDriver",
           "Frequency": 10000000,
@@ -217,6 +217,24 @@
               },
               {
                 "$type": "SharedDriver.AnalyzerChannel, SharedDriver",
+                "TextualChannelNumber": "Channel 23",
+                "ChannelNumber": 22,
+                "ChannelName": "SYNC",
+                "ChannelColor": null,
+                "Hidden": false,
+                "Samples": null
+              },
+              {
+                "$type": "SharedDriver.AnalyzerChannel, SharedDriver",
+                "TextualChannelNumber": "Channel 24",
+                "ChannelNumber": 23,
+                "ChannelName": "phase1",
+                "ChannelColor": null,
+                "Hidden": false,
+                "Samples": null
+              },
+              {
+                "$type": "SharedDriver.AnalyzerChannel, SharedDriver",
                 "TextualChannelNumber": "Channel 25",
                 "ChannelNumber": 24,
                 "ChannelName": "a8",
@@ -394,17 +412,17 @@
                     },
                     {
                       "$type": "SigrokDecoderBridge.SigrokSelectedChannel, LogicAnalyzer",
-                      "CaptureIndex": 22,
+                      "CaptureIndex": 24,
                       "SigrokIndex": 16
                     },
                     {
                       "$type": "SigrokDecoderBridge.SigrokSelectedChannel, LogicAnalyzer",
-                      "CaptureIndex": 23,
+                      "CaptureIndex": 25,
                       "SigrokIndex": 17
                     },
                     {
                       "$type": "SigrokDecoderBridge.SigrokSelectedChannel, LogicAnalyzer",
-                      "CaptureIndex": 24,
+                      "CaptureIndex": 25,
                       "SigrokIndex": 18
                     },
                     {
