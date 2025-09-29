@@ -219,7 +219,7 @@
                 "$type": "SharedDriver.AnalyzerChannel, SharedDriver",
                 "TextualChannelNumber": "Channel 23",
                 "ChannelNumber": 22,
-                "ChannelName": "SYNC",
+                "ChannelName": "phase1",
                 "ChannelColor": null,
                 "Hidden": false,
                 "Samples": null
@@ -228,7 +228,7 @@
                 "$type": "SharedDriver.AnalyzerChannel, SharedDriver",
                 "TextualChannelNumber": "Channel 24",
                 "ChannelNumber": 23,
-                "ChannelName": "phase1",
+                "ChannelName": "SYNC",
                 "ChannelColor": null,
                 "Hidden": false,
                 "Samples": null
