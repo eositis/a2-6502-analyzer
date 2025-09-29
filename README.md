@@ -94,7 +94,7 @@ Production v1.5 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main
 Pre-production v1.4 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main/6502-interposer-Schematic-v1_4.pdf
 
 ### Board View
-![a2-6502-v1 5](https://github.com/user-attachments/assets/f045d332-7186-456d-840c-d61f90bf8f7c)
+![a2-6502-v1 5](https://github.com/eositis/a2-6502-analyzer/blob/main/misc/a2-6502-3dview-v1_5.jpg)
 
 ### Ready to collect data
 ![a2-6502-action-v1_4](https://github.com/user-attachments/assets/2841a7ba-cd46-487d-ad21-ee0a1624c94a)
