@@ -91,8 +91,6 @@ The J3 header signals are ordered as follows:
 ## Schematics
 Production v1.5 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main/kicad/v1.5/6502-interposer-schematic-1_5.pdf
 
-Pre-production v1.4 schematic: https://github.com/eositis/a2-6502-analyzer/blob/main/6502-interposer-Schematic-v1_4.pdf
-
 ### Board View
 ![a2-6502-v1 5](https://github.com/eositis/a2-6502-analyzer/blob/main/misc/a2-6502-3dview-v1_5.jpg)
 
