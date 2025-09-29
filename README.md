@@ -51,7 +51,32 @@ Dr Gusman's 6.5 release is recommended for this deployment. At this time, it is 
 6) Congratulations! Setup is complete!
 
 ## Channel assignments
-<img width="359" height="635" alt="image" src="https://github.com/user-attachments/assets/c4f22d23-842a-4563-b957-6c1d2bad59de" />
+| J1-Analyzer1 | Signal | Pin | J2-Analyzer2 | Signal |
+|-------------:|--------|---|-------------:|--------|
+| CH-1 | RDY | 1 | CH-25 | A8 |
+| CH-2 | IRQ\ | 2 | CH-26 | A9 |
+| CH-3 | NMI\ | 3 | CH-27 | A10 |
+| CH-4 | R/W\ | 4 | CH-28 | A11 |
+| CH-5 | PHASE0 | 5 | CH-29 | A12 |
+| CH-6 | RES\ | 6 | CH-30 | A13 |
+| CH-7 | D0 | 7 | CH-31 | A14 |
+| CH-8 | D1 | 8 | CH-32 | A15 |
+| CH-9 | D2 | 9 | CH-33 | J3-1 |
+| CH-10 | D3 | 10 | CH-34 | J3-2 |
+| CH-11 | D4 | 11 | CH-35 | J3-3 |
+| CH-12 | D5 | 12 | CH-36 | J3-4 |
+| CH-13 | D6 | 21 | CH-37 | J3-5 |
+| CH-14 | D7 | 22 | CH-38 | J3-6 |
+| CH-15 | A1 | 23 | CH-39 | J3-7 |
+| CH-16 | A2 | 24 | CH-40 | J3-8 |
+| CH-17 | A3 | 25 | CH-41 | J3-9 |
+| CH-18 | A4 | 26 | CH-42 | J3-10 |
+| CH-19 | A5 | 27 | CH-43 | J3-11 |
+| CH-20 | A6 | 28 | CH-44 | J3-12 |
+| CH-21 | A7 | 29 | CH-45 | J3-13 |
+| CH-22 | A8 | 30 | CH-46 | J3-14 |
+| CH-23 | Phase1 | 32 | CH-47 | J3-15 |
+| CH-24 | SYNC | 32 | CH-48 | J3-16 |
 
 ## J3 header pin assignments
 The Opt X.nn signals are routed to the J3 breakout header. The user can use standard DuPont cables and clips to reach out to other parts of the system for additional data.
