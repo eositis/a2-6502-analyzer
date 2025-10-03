@@ -11,6 +11,7 @@ The adapter board maps the Apple IIc 6502 signals to specific ports on the Logic
 Dr Gusman's 6.5 release is recommended for this deployment. At this time, it is still in beta. This release provides profile support, and allows the user to import a port assignment set when using the a2-6502 adapter. A basic profile for this board is available [here](https://github.com/eositis/a2-6502-analyzer/tree/main/Gusmans-LogicAnalyzer).
 1. profiles.json
    - copy the file to $HOME/Library/Application Support/LogicAnalyzer
+   - Windoze users copy the file to %userprofile%/appdata/roaming/logicanalyzer
    - if you already have a pofile created, you will need to copy the relevant data into your existing profile
 
 ## Initial Setup
@@ -84,8 +85,8 @@ The J3 header signals are ordered as follows:
 
 | PIN-1 | PIN-3 | PIN-5 | PIN-7 | PIN-9 | PIN-11 | PIN-13 | PIN-15 |
 |:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
-| CH-33 | CH-33 | CH-33 | CH-33 | CH-33 | CH-33 | CH-33 | CH-33 |
-| CH-33 | CH-33 | CH-33 | CH-33 | CH-33 | CH-33 | CH-33 | CH-33 |
+| CH-33 | CH-35 | CH-37 | CH-39 | CH-41 | CH-43 | CH-45 | CH-47 |
+| CH-34 | CH-36 | CH-38 | CH-40 | CH-42 | CH-44 | CH-46 | CH-48 |
 | PIN-2 | PIN-4 | PIN-6 | PIN-8 | PIN-10 | PIN-12 | PIN-14 | PIN-16 |
 
 ## Schematics
